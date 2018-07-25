@@ -25,6 +25,7 @@ public class ClientHandler extends ChannelHandlerAdapter{
 			String body = new String(req, "utf-8");
 			System.out.println("Client :" + body );
 			String response = "收到服务器端的返回信息：" + body;
+			System.out.println(response);
 		} finally {
 			ReferenceCountUtil.release(msg);
 		}
