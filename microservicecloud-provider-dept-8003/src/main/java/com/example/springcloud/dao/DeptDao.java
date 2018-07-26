@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
 
-import com.atguigu.springcloud.entities.Dept;
+import com.example.springcloud.entities.Dept;
 
 @Mapper
 public interface DeptDao

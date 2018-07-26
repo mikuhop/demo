@@ -16,15 +16,15 @@ eureka:
  
 zuul: 
   #ignored-services: microservicecloud-dept
-  prefix: /atguigu
+  prefix: /example
   ignored-services: "*"
   routes:
     mydept.serviceId: microservicecloud-dept
     mydept.path: /mydept/**
  
 info:
-  app.name: atguigu-microcloud
-  company.name: www.atguigu.com
+  app.name: example-microcloud
+  company.name: www.example.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
 

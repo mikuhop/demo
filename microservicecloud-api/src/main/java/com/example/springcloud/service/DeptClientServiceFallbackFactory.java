@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.atguigu.springcloud.entities.Dept;
+import com.example.springcloud.entities.Dept;
 
 import feign.hystrix.FallbackFactory;
 

@@ -1,14 +1,13 @@
 package com.example.springcloud.controller;
 
-import com.example.springcloud.entities.Dept;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.atguigu.springcloud.entities.Dept;
-import com.atguigu.springcloud.service.DeptService;
+import com.example.springcloud.entities.Dept;
+import com.example.springcloud.service.DeptService;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 
 @RestController

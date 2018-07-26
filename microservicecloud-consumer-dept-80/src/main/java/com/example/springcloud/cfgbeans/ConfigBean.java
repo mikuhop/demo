@@ -33,4 +33,4 @@ public class ConfigBean //boot -->spring   applicationContext.xml --- @Configura
 //	return new UserServcieImpl();
 //}
 // applicationContext.xml == ConfigBean(@Configuration)
-//<bean id="userServcie" class="com.atguigu.tmall.UserServiceImpl">
+//<bean id="userServcie" class="com.example.tmall.UserServiceImpl">
