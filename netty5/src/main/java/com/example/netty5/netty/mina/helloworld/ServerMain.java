@@ -13,7 +13,6 @@ import org.apache.mina.transport.socket.nio.NioSocketAcceptor;
 
 /**
  * Mina主程序
- * @author alienware
  *
  */
 public class ServerMain {

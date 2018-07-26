@@ -21,8 +21,6 @@ import java.util.Map.Entry;
  * <B>中文类名：</B>HTTP协议调用器<BR>
  * <B>概要说明：</B><BR>
  * 
- * @author 交通运输部规划研究院（邵彧）
- * @since 2013-7-18
  */
 public class HttpCaller {
 

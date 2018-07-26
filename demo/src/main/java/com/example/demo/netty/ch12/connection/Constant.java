@@ -1,7 +1,6 @@
 package com.example.demo.netty.ch12.connection;
 
 /**
- * @author 闪电侠
  */
 public class Constant {
     static final int BEGIN_PORT = 8000;

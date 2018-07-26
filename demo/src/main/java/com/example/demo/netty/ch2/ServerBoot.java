@@ -1,7 +1,6 @@
 package com.example.demo.netty.ch2;
 
 /**
- * @author 闪电侠
  */
 public class ServerBoot {
 

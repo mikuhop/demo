@@ -1,7 +1,6 @@
 package com.example.demo.sync.sync005;
 /**
  * synchronized异常
- * @author alienware
  *
  */
 public class SyncException {

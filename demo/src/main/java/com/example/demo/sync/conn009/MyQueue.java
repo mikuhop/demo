@@ -4,7 +4,6 @@ import java.util.LinkedList;
 import java.util.concurrent.atomic.AtomicInteger;
 /**
  * 模拟Queue
- * @author alienware
  *
  */
 public class MyQueue {

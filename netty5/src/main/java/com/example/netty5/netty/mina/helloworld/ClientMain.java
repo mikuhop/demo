@@ -11,7 +11,6 @@ import org.apache.mina.transport.socket.nio.NioSocketConnector;
 
 /**
  * Mina 客户端
- * @author alienware
  *
  */
 public class ClientMain {

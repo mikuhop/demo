@@ -11,7 +11,6 @@ import static com.example.demo.netty.ch12.connection.Constant.BEGIN_PORT;
 import static com.example.demo.netty.ch12.connection.Constant.N_PORT;
 
 /**
- * @author 闪电侠
  */
 public final class Server {
 

@@ -4,7 +4,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * volatile关键字不具备synchronized关键字的原子性（同步）
- * @author alienware
  *
  */
 public class VolatileNoAtomic extends Thread{

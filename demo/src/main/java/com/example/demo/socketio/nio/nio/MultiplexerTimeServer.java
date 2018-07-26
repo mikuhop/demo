@@ -15,7 +15,6 @@ import java.util.Set;
  * 多路复用类
  * 它是一个独立的线程，负责轮询多路复器Selector,可以处理多个客户端的并发接入。
  *
- * @author Joanna.Yan
  * @date 2017年11月6日下午3:51:41
  */
 public class MultiplexerTimeServer implements Runnable {

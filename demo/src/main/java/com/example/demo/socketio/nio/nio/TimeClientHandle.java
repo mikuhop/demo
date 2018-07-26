@@ -13,7 +13,6 @@ import java.util.Set;
 /**
  * 处理异步连接和读写操作
  *
- * @author Joanna.Yan
  * @date 2017年11月6日下午4:33:14
  */
 public class TimeClientHandle implements Runnable {

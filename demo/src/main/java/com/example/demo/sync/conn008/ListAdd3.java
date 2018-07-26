@@ -5,7 +5,6 @@ import java.util.List;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * @author alienware
  */
 public class ListAdd3 {
     private volatile static List list = new ArrayList();

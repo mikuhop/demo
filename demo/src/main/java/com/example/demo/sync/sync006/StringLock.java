@@ -1,7 +1,6 @@
 package com.example.demo.sync.sync006;
 /**
  * synchronized代码块对字符串的锁，注意String常量池的缓存功能
- * @author alienware
  *
  */
 public class StringLock {

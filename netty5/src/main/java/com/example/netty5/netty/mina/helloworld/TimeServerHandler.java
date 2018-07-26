@@ -5,7 +5,6 @@ import org.apache.mina.core.session.IdleStatus;
 import org.apache.mina.core.session.IoSession;
 /**
  * Mina服务器,handle业务逻辑
- * @author alienware
  *
  */
 public class TimeServerHandler extends IoHandlerAdapter {
