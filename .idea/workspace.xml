@@ -3,79 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a85c2d89-9c77-4716-b889-12f04de771b4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-api/pom.xml" afterPath="$PROJECT_DIR$/microservicecloud-api/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-api/src/main/java/com/atguigu/springcloud/entities/Dept.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-api/src/main/java/com/atguigu/springcloud/service/DeptClientService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-api/src/main/java/com/atguigu/springcloud/service/DeptClientServiceFallbackFactory.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-3344/pom.xml" afterPath="$PROJECT_DIR$/microservicecloud-config-3344/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-3344/src/main/java/com/atguigu/springcloud/Config_3344_StartSpringCloudApp.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-client-3355/pom.xml" afterPath="$PROJECT_DIR$/microservicecloud-config-client-3355/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-client-3355/src/main/java/com/atguigu/springcloud/ConfigClient_3355_StartSpringCloudApp.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-client-3355/src/main/java/com/atguigu/springcloud/rest/ConfigClientRest.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-dept-client-8001/pom.xml" afterPath="$PROJECT_DIR$/microservicecloud-config-dept-client-8001/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-dept-client-8001/src/main/java/com/atguigu/springcloud/DeptProvider8001_Config_App.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-dept-client-8001/src/main/java/com/atguigu/springcloud/controller/DeptController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-dept-client-8001/src/main/java/com/atguigu/springcloud/dao/DeptDao.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-dept-client-8001/src/main/java/com/atguigu/springcloud/service/DeptService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-dept-client-8001/src/main/java/com/atguigu/springcloud/service/impl/DeptServiceImpl.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-dept-client-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" afterPath="$PROJECT_DIR$/microservicecloud-config-dept-client-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-eureka-client-7001/pom.xml" afterPath="$PROJECT_DIR$/microservicecloud-config-eureka-client-7001/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-config-eureka-client-7001/src/main/java/com/atguigu/springcloud/Config_Git_EurekaServerApplication.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/pom.xml" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/atguigu/springcloud/DeptConsumer80_App.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/atguigu/springcloud/cfgbeans/ConfigBean.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/atguigu/springcloud/controller/DeptController_Consumer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/pom.xml" afterPath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/atguigu/springcloud/DeptConsumer80_Feign_App.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/atguigu/springcloud/cfgbeans/ConfigBean.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/src/main/java/com/atguigu/springcloud/controller/DeptController_Consumer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard/pom.xml" afterPath="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard/src/main/java/com/atguigu/springcloud/DeptConsumer_DashBoard_App.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-eureka-7001/pom.xml" afterPath="$PROJECT_DIR$/microservicecloud-eureka-7001/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-eureka-7001/src/main/java/com/atguigu/springcloud/EurekaServer7001_App.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-eureka-7002/pom.xml" afterPath="$PROJECT_DIR$/microservicecloud-eureka-7002/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-eureka-7002/src/main/java/com/atguigu/springcloud/EurekaServer7002_App.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-eureka-7003/pom.xml" afterPath="$PROJECT_DIR$/microservicecloud-eureka-7003/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-eureka-7003/src/main/java/com/atguigu/springcloud/EurekaServer7003_App.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/pom.xml" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/atguigu/springcloud/DeptProvider8001_App.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/atguigu/springcloud/controller/DeptController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/atguigu/springcloud/dao/DeptDao.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/java/com/atguigu/springcloud/service/DeptService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/pom.xml" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/java/com/atguigu/springcloud/DeptProvider8002_App.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/java/com/atguigu/springcloud/controller/DeptController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/java/com/atguigu/springcloud/dao/DeptDao.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/java/com/atguigu/springcloud/service/DeptService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/java/com/atguigu/springcloud/service/impl/DeptServiceImpl.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/resources/mybatis/mapper/DeptMapper.xml" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/resources/mybatis/mapper/DeptMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/target/classes/application.yml" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8002/target/classes/application.yml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8003/pom.xml" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8003/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8003/src/main/java/com/atguigu/springcloud/DeptProvider8003_App.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8003/src/main/java/com/atguigu/springcloud/controller/DeptController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8003/src/main/java/com/atguigu/springcloud/service/DeptService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8003/src/main/java/com/atguigu/springcloud/service/impl/DeptServiceImpl.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8003/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8003/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-8003/src/main/resources/mybatis/mapper/DeptMapper.xml" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-8003/src/main/resources/mybatis/mapper/DeptMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/pom.xml" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/com/atguigu/springcloud/DeptProvider8001_Hystrix_App.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/com/atguigu/springcloud/controller/DeptController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/com/atguigu/springcloud/dao/DeptDao.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/com/atguigu/springcloud/service/impl/DeptServiceImpl.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/com/example/springcloud/dao/DeptDao.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/com/example/springcloud/service/DeptService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/java/com/example/springcloud/service/impl/DeptServiceImpl.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" afterPath="$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001/src/main/resources/mybatis/mapper/DeptMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-zuul-gateway-9527/pom.xml" afterPath="$PROJECT_DIR$/microservicecloud-zuul-gateway-9527/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-zuul-gateway-9527/src/main/java/com/atguigu/springcloud/Zuul_9527_StartSpringCloudApp.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-zuul-gateway-9527/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/microservicecloud-zuul-gateway-9527/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/netty5/src/main/java/com/example/netty5/netty/helloworld/ClientHandler.java" afterPath="$PROJECT_DIR$/netty5/src/main/java/com/example/netty5/netty/helloworld/ClientHandler.java" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/microservicecloud-provider-dept-8003/target/" />
     <ignored path="$PROJECT_DIR$/microservicecloud-provider-dept-8002/target/" />
@@ -185,12 +112,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeptConsumer80_App.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DeptConsumer80_App.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/example/springcloud/DeptConsumer80_App.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="351">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -1728,12 +1668,12 @@
       <workItem from="1532315363069" duration="17835000" />
       <workItem from="1532394374753" duration="17127000" />
       <workItem from="1532480515153" duration="12286000" />
-      <workItem from="1532565946497" duration="603000" />
+      <workItem from="1532565946497" duration="1306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173612000" />
+    <option name="totallyTimeSpent" value="174315000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="23" width="1864" height="1057" extended-state="0" />
@@ -1753,6 +1693,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -1761,7 +1702,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3087318" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27754676" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27754676" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23542354" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19636963" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -1774,7 +1715,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24972497" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948294" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
     </layout>
@@ -1806,13 +1746,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/example/demo/netty/ch6/exceptionspread/ExceptionCaughtHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/example/demo/netty/ch6/exceptionspread/InBoundHandlerB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -2085,8 +2018,19 @@
     <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-80/src/main/java/com/example/springcloud/DeptConsumer80_App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
