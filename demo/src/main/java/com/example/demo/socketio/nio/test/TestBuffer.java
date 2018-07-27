@@ -2,6 +2,9 @@ package com.example.demo.socketio.nio.test;
 
 import java.nio.IntBuffer;
 
+/**
+ * Buffer 会先在堆外内存（申请更耗资源但io性能高）申请一块空间，然后再复制到堆内内存
+ */
 public class TestBuffer {
 	
 	public static void main(String[] args) {
@@ -15,7 +18,7 @@ public class TestBuffer {
 		buf.put(35);// position位置：2 - > 3
 		//把位置复位为0，也就是position位置：3 - > 0
 		buf.flip();
-		System.out.println("使用flip复位：" + buf);
+		System.out.println("使用flip复位：" + buf.toString());
 		System.out.println("容量为: " + buf.capacity());	//容量一旦初始化后不允许改变（warp方法包裹数组除外）
 		System.out.println("限制为: " + buf.limit());		//由于只装载了三个元素,所以可读取或者操作的元素为3 则limit=3
 		
