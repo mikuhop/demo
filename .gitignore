@@ -36,15 +36,3 @@ bower_components
 exportToHTML
 
 build
-
-/qh-agency-domain/src/querydsl/
-application.yml
-application-dev.yml
-*.tar.gz
-*.tgz
-
-qh-agency-wap-front/src/*/dist/**
-!qh-agency-wap-front/src/*/dist/.gitkeep
-
-qh-agency-admin-front/src/*/dist/**
-!qh-agency-admin-front/src/*/dist/.gitkeep
