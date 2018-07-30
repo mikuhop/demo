@@ -3,6 +3,8 @@ package com.example.netty5.jmx;
 import java.io.IOException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
+import java.util.List;
+import java.util.Queue;
 
 import javax.management.InstanceAlreadyExistsException;
 import javax.management.MBeanRegistrationException;
@@ -40,7 +42,6 @@ public class HelloWorldAgent {
 
         ObjectName objName = new ObjectName(jmxServerName + ":name=" + "HelloWorld");
         mbs.registerMBean(new HelloWorld(), objName);
-
 
         JMXServiceURL url = new JMXServiceURL("service:jmx:rmi:///jndi/rmi://localhost:" + rmiPort + "/" + jmxServerName);
         System.out.println("JMXServiceURL: " + url.toString());
