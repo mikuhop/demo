@@ -2,6 +2,7 @@ package com.example.demo.disruptor.base;
 
 import java.nio.ByteBuffer;
 import java.util.List;
+import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -34,7 +35,7 @@ public class LongEventMain {
         Disruptor<LongEvent> disruptor =
                 new Disruptor<LongEvent>(factory, ringBufferSize, executor, ProducerType.SINGLE, new YieldingWaitStrategy());
         // 连接消费事件方法
-        ConcurrentLinkedBlockingQueue<String> objects = new ConcurrentLinkedBlockingQueue<>(10000);
+        ConcurrentLinkedQueue<String> objects = new ConcurrentLinkedQueue<>();
         disruptor.handleEventsWith(new LongEventHandler(objects));
 
         // 启动
@@ -48,7 +49,7 @@ public class LongEventMain {
         //LongEventProducerWithTranslator producer = new LongEventProducerWithTranslator(ringBuffer);
         ByteBuffer byteBuffer = ByteBuffer.allocate(8);
         long l1 = System.currentTimeMillis();
-        ConcurrentLinkedBlockingQueue<String> objects1 = new ConcurrentLinkedBlockingQueue<>(1000);
+        ConcurrentLinkedQueue<String> objects1 = new ConcurrentLinkedQueue<>();
         for (long l = 0; l < 1000; l++) {
             objects1.add(String.valueOf(l));
         }

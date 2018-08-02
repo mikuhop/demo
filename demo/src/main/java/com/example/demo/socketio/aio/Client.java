@@ -35,11 +35,7 @@ public class Client implements Runnable{
 			byte[] respByte = new byte[buf.remaining()];
 			buf.get(respByte);
 			System.out.println(new String(respByte,"utf-8").trim());
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		} catch (ExecutionException e) {
-			e.printStackTrace();
-		} catch (UnsupportedEncodingException e) {
+		} catch (InterruptedException | ExecutionException | UnsupportedEncodingException e) {
 			e.printStackTrace();
 		}
 	}

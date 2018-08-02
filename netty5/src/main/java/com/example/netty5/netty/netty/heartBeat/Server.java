@@ -25,7 +25,7 @@ public class Server {
 		 //设置日志
 		 .handler(new LoggingHandler(LogLevel.INFO))
 		 .childHandler(new ChannelInitializer<SocketChannel>() {
-			protected void initChannel(SocketChannel sc) throws Exception {
+			protected void initChannel(SocketChannel sc) {
 				sc.pipeline().addLast(MarshallingCodeCFactory.buildMarshallingDecoder());
 				sc.pipeline().addLast(MarshallingCodeCFactory.buildMarshallingEncoder());
 				sc.pipeline().addLast(new ServerHeartBeatHandler());
