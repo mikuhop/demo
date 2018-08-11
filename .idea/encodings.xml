@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo/src/main/java/com/example/demo/spring/aop/LogAspects.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-config-3344" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-config-client-3355" charset="UTF-8" />

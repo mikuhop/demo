@@ -6,8 +6,6 @@
 /classes/
 out
 bin/
-/test/unit
-/test/integration
 /overlays/
 /db/
 .classpath

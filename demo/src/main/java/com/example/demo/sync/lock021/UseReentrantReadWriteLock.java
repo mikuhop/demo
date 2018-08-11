@@ -68,6 +68,7 @@ public class UseReentrantReadWriteLock {
 //		t1.start();
 //		t2.start();
 //
+		System.out.println(0.1+0.2);
 		t1.start(); // R
 		t3.start(); // W
 //
