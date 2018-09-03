@@ -39,6 +39,7 @@ public class MinorGC {
         //防止对象游离
         two = null;
 
+        //再分配一个 5M 内存时，会不会发生 full GC ?
         four = new byte[5 * SIZE] ;
     }
 }
