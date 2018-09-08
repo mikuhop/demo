@@ -3,9 +3,7 @@ package com.example.demo.netty.ch6;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 
-/**
- * @author
- */
+
 public class InBoundHandlerA extends ChannelInboundHandlerAdapter {
 
     @Override

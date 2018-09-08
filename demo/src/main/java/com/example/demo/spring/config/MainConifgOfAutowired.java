@@ -52,7 +52,6 @@ import com.example.demo.spring.dao.BookDao;
  * 			ApplicationContextAware==》ApplicationContextAwareProcessor；
  *
  *
- * @author lfy
  *
  */
 @Configuration

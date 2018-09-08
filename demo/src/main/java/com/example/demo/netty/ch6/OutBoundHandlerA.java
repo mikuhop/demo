@@ -4,9 +4,6 @@ import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelOutboundHandlerAdapter;
 import io.netty.channel.ChannelPromise;
 
-/**
- * @author
- */
 public class OutBoundHandlerA extends ChannelOutboundHandlerAdapter {
 
     @Override

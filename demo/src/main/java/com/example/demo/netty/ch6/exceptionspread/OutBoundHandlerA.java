@@ -3,9 +3,7 @@ package com.example.demo.netty.ch6.exceptionspread;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelOutboundHandlerAdapter;
 
-/**
- * @author
- */
+
 public class OutBoundHandlerA extends ChannelOutboundHandlerAdapter {
 
     @Override

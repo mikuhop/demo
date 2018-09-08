@@ -12,7 +12,6 @@ import org.apache.zookeeper.ZooDefs.Ids;
 
 /**
  * Zookeeper base学习笔记
- * @since 2015-6-13
  */
 public class ZookeeperBase {
 

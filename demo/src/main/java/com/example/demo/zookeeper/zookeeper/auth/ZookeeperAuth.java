@@ -16,8 +16,6 @@ import org.apache.zookeeper.data.ACL;
 import org.apache.zookeeper.data.Stat;
 /**
  * Zookeeper 节点授权
- * @author（alienware）
- * @since 2015-6-14
  */
 public class ZookeeperAuth implements Watcher {
 

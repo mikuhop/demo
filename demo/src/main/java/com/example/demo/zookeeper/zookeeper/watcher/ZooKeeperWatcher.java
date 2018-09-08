@@ -16,8 +16,6 @@ import org.apache.zookeeper.data.Stat;
 /**
  * Zookeeper Wathcher 
  * 本类就是一个Watcher类（实现了org.apache.zookeeper.Watcher类）
- * @author（alienware）
- * @since 2015-6-14
  */
 public class ZooKeeperWatcher implements Watcher {
 

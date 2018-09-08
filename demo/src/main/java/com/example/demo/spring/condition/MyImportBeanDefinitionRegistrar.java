@@ -13,8 +13,8 @@ public class MyImportBeanDefinitionRegistrar implements ImportBeanDefinitionRegi
 	@Override
 	public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry) {
 		
-		boolean definition = registry.containsBeanDefinition("com.example.demo.spring.bean.Red");
-		boolean definition2 = registry.containsBeanDefinition("com.example.demo.spring.bean.Blue");
+		boolean definition = registry.containsBeanDefinition("com.example.demo.spring ioc.md.bean.Red");
+		boolean definition2 = registry.containsBeanDefinition("com.example.demo.spring ioc.md.bean.Blue");
 		if(definition && definition2){
 			BeanDefinition beanDefinition = new RootBeanDefinition(RainBow.class);
 			registry.registerBeanDefinition("rainBow", beanDefinition);

@@ -13,7 +13,6 @@ import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
 /**
  * 应答模式之confirm机制：消息发送
  *
- * @author sheungxin
  */
 public class ConfirmSend {
     private static String exchange_name = "";

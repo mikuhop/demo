@@ -15,7 +15,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 /**
  * 应答模式之confirm机制：消息接收
  *
- * @author sheungxin
  */
 public class ConfirmRecive {
 

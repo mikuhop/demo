@@ -10,9 +10,7 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.util.AttributeKey;
 
-/**
- * @author
- */
+
 public final class Server {
 
     public static void main(String[] args) throws Exception {

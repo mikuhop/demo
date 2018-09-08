@@ -4,9 +4,7 @@ import com.example.demo.netty.ch6.BusinessException;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 
-/**
- * @author
- */
+
 public class InBoundHandlerB extends ChannelInboundHandlerAdapter {
 
     @Override

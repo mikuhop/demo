@@ -4,9 +4,7 @@ import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 
-/**
- * @author
- */
+
 public class AuthHandler extends SimpleChannelInboundHandler<ByteBuf> {
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
