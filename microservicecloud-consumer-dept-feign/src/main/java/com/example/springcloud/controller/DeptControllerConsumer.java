@@ -11,7 +11,7 @@ import com.example.springcloud.entities.Dept;
 import com.example.springcloud.service.DeptClientService;
 
 @RestController
-public class DeptController_Consumer
+public class DeptControllerConsumer
 {
 	@Autowired
 	private DeptClientService service;
